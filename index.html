@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CyberNova | Phishing Detection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <div class="icon">🛡️</div>
+
+        <h1>CyberNova</h1>
+
+        <p class="subtitle">
+            Explainable AI-Based Phishing Website Detection
+        </p>
+
+        <section class="scanner">
+            <label for="url">Enter Website URL</label>
+
+            <input
+                type="text"
+                id="url"
+                placeholder="https://example.com"
+                autocomplete="url"
+            >
+
+            <button id="scanButton" type="button">
+                Scan Website
+            </button>
+
+            <div id="result" aria-live="polite"></div>
+        </section>
+
+        <p class="disclaimer">
+            This prototype uses AI-based URL analysis.
+            Results cannot guarantee website safety.
+        </p>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
